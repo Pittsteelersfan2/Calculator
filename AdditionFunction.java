@@ -1,0 +1,24 @@
+
+/**
+ * 
+ * @author Aaron Leonard
+ * 
+ * This method extends an abstract method and defines it to return the result of two doubles added
+ * together.
+ *
+ */
+
+public class AdditionFunction extends DoMath {
+	
+	public Double calculate(double inputOne, double inputTwo) {
+		
+		//returning the result of addition from two doubles.
+		
+		double result;
+		
+		result = inputOne + inputTwo;
+		return result;
+		
+	}
+
+}
